@@ -55,6 +55,12 @@
     <Compile Include="DodajUtakmicuForm.Designer.cs">
       <DependentUpon>DodajUtakmicuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IzmjeniUtakmicuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzmjeniUtakmicuForm.Designer.cs">
+      <DependentUpon>IzmjeniUtakmicuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TablicaRezultata.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DodajUtakmicuForm.resx">
       <DependentUpon>DodajUtakmicuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzmjeniUtakmicuForm.resx">
+      <DependentUpon>IzmjeniUtakmicuForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

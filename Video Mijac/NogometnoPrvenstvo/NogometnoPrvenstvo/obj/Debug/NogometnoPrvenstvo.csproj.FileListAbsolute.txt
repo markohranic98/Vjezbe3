@@ -12,3 +12,4 @@ C:\Users\Marko\source\repos\Vjezbe3\Video Mijac\NogometnoPrvenstvo\NogometnoPrve
 C:\Users\Marko\source\repos\Vjezbe3\Video Mijac\NogometnoPrvenstvo\NogometnoPrvenstvo\obj\Debug\NogometnoPrvenstvo.exe
 C:\Users\Marko\source\repos\Vjezbe3\Video Mijac\NogometnoPrvenstvo\NogometnoPrvenstvo\obj\Debug\NogometnoPrvenstvo.pdb
 C:\Users\Marko\source\repos\Vjezbe3\Video Mijac\NogometnoPrvenstvo\NogometnoPrvenstvo\obj\Debug\NogometnoPrvenstvo.DodajUtakmicuForm.resources
+C:\Users\Marko\source\repos\Vjezbe3\Video Mijac\NogometnoPrvenstvo\NogometnoPrvenstvo\obj\Debug\NogometnoPrvenstvo.IzmjeniUtakmicuForm.resources

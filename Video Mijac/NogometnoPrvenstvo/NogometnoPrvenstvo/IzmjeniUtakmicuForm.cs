@@ -1,25 +1,43 @@
-﻿using PrvenstvoLib;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using PrvenstvoLib;
 namespace NogometnoPrvenstvo
 {
-    public partial class DodajUtakmicuForm : Form
+    public partial class IzmjeniUtakmicuForm : Form
     {
-        public DodajUtakmicuForm()
+        private Utakmica postojecaUtakmica;
+        public IzmjeniUtakmicuForm(Utakmica utakmica)
         {
             InitializeComponent();
+            postojecaUtakmica = utakmica;
         }
 
-        private void DodajUtakmicuForm_Load(object sender, EventArgs e)
+        private void IzmjeniUtakmicuForm_Load(object sender, EventArgs e)
         {
             domacinComboBox.DataSource = Repozitorij.PopisReprezentacija.ToList();
+            domacinComboBox.SelectedItem = postojecaUtakmica.Domacin;
             gostComboBox.DataSource = Repozitorij.PopisReprezentacija.ToList();
+            gostComboBox.SelectedItem = postojecaUtakmica.Gost;
 
-            brojZgoditakaDomacinaTextBox.Text = "0";
-            zgodiciGostTextBox.Text = "0";
-            datumTextBox.Text = DateTime.Now.Date.ToShortDateString();
-            zakazanoRadioButton.Checked = true;
+            zgodiciGostTextBox.Text = postojecaUtakmica.BrojZgoditakaGost.ToString();
+            brojZgoditakaDomacinaTextBox.Text = postojecaUtakmica.BrojZgoditakaDomacin.ToString();
+
+            datumTextBox.Text = postojecaUtakmica.Datum.ToShortDateString();
+            if(postojecaUtakmica.Status == StatusUtakmice.Zakazana)
+            {
+                zakazanoRadioButton.Checked = true;
+            }
+            else
+            {
+                odigranaRadioButton.Checked = true;
+            }
         }
 
         private void spremibutton_Click(object sender, EventArgs e)
@@ -27,34 +45,24 @@ namespace NogometnoPrvenstvo
             Reprezentacija domacin = domacinComboBox.SelectedItem as Reprezentacija;
             Reprezentacija gost = gostComboBox.SelectedItem as Reprezentacija;
 
-            if (domacin == gost)
-            {
-                MessageBox.Show("Domaćin i gost ne mogu biti ista reprezentacija");
-                return;
-            }
-
             int brojZgoditakaDomacina = int.Parse(brojZgoditakaDomacinaTextBox.Text);
             int brojZgoditakaGost = int.Parse(zgodiciGostTextBox.Text);
 
-            if (brojZgoditakaDomacina < 0 && brojZgoditakaGost < 0)
-            {
-                MessageBox.Show("Broj zgoditaka ne moze bit manji od 0");
-                return;
-            }
-
+            
             DateTime datumUtakmice = DohvatiDatumUtakmice(datumTextBox.Text);
             StatusUtakmice status = DohvatiStatusUtakmice();
-            Utakmica utakmica = new Utakmica();
-            utakmica.Status = status;
-            utakmica.Domacin = domacin;
-            utakmica.Gost = gost;
-            utakmica.BrojZgoditakaDomacin = brojZgoditakaDomacina;
-            utakmica.BrojZgoditakaGost = brojZgoditakaGost;
-            utakmica.Datum = datumUtakmice;
-            Repozitorij.Prvenstvo.DodajUtakmicu(utakmica);
+
+            
+
+            postojecaUtakmica.Status = status;
+            postojecaUtakmica.Domacin = domacin;
+            postojecaUtakmica.Gost = gost;
+            postojecaUtakmica.BrojZgoditakaDomacin = brojZgoditakaDomacina;
+            postojecaUtakmica.BrojZgoditakaGost = brojZgoditakaGost;
+            postojecaUtakmica.Datum = datumUtakmice;
+            
             Close();
         }
-
         private StatusUtakmice DohvatiStatusUtakmice()
         {
             if (zakazanoRadioButton.Checked == true)

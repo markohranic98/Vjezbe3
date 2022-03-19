@@ -61,6 +61,7 @@
             this.dodajButton.TabIndex = 2;
             this.dodajButton.Text = "Dodaj utakmicu";
             this.dodajButton.UseVisualStyleBackColor = true;
+            this.dodajButton.Click += new System.EventHandler(this.dodajButton_Click);
             // 
             // izmijeniButton
             // 
@@ -70,6 +71,7 @@
             this.izmijeniButton.TabIndex = 3;
             this.izmijeniButton.Text = "Izmijeni utakmicu";
             this.izmijeniButton.UseVisualStyleBackColor = true;
+            this.izmijeniButton.Click += new System.EventHandler(this.izmijeniButton_Click);
             // 
             // obrisiButton
             // 

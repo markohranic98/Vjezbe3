@@ -13,6 +13,7 @@ namespace NogometnoPrvenstvo
     public partial class TablicaRezultata : Form
     {
         private Prvenstvo prvenstvo = Repozitorij.Prvenstvo;
+
         public TablicaRezultata()
         {
             InitializeComponent();
@@ -46,6 +47,21 @@ namespace NogometnoPrvenstvo
                 utakmica = utakmiceDataGridView.CurrentRow.DataBoundItem as Utakmica;
             }
             return utakmica;
+        }
+
+        private void dodajButton_Click(object sender, EventArgs e)
+        {
+            DodajUtakmicuForm form = new DodajUtakmicuForm();
+            form.ShowDialog();
+            OsvjeziPopis();
+        }
+
+        private void izmijeniButton_Click(object sender, EventArgs e)
+        {
+            
+            IzmjeniUtakmicuForm uzakmicaIzmijeni = new IzmjeniUtakmicuForm(DohvatiSelektiranuUtakmicu());
+            uzakmicaIzmijeni.ShowDialog();
+            OsvjeziPopis();
         }
     }
 }
