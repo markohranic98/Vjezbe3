@@ -28,7 +28,7 @@ namespace BodoviIAktivnosti
             ocjeniStudentaButton.Enabled = false;
         }
 
-        private void OsvjeziDGV()
+        private void OsvjeziDGV() 
         {
             BindingSource bs = new BindingSource(Studenti, "");
             studentiDataGridView.DataSource = bs;
