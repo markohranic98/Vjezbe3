@@ -31,7 +31,6 @@ namespace BodoviIAktivnosti
             
             
         }
-
         private void prihvatiButton_Click(object sender, EventArgs e)
         {
           if(int.Parse(bodoviTextBox.Text) > -1 &&  int.Parse(bodoviTextBox.Text) <= provjera.MoguciBodovi &&

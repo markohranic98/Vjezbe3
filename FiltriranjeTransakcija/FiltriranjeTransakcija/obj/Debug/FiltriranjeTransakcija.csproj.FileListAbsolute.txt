@@ -1,0 +1,14 @@
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\bin\Debug\FiltriranjeTransakcija.exe.config
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\bin\Debug\FiltriranjeTransakcija.exe
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\bin\Debug\FiltriranjeTransakcija.pdb
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\bin\Debug\BankaLib.dll
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.PopisTransakcijaForm.resources
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.Properties.Resources.resources
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.csproj.GenerateResource.cache
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.csproj.CopyComplete
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.exe
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.pdb
+C:\Users\Marko\source\repos\Vjezbe3\FiltriranjeTransakcija\FiltriranjeTransakcija\obj\Debug\FiltriranjeTransakcija.DetaljiForm.resources
