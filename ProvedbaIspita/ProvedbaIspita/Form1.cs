@@ -35,6 +35,7 @@ namespace ProvedbaIspita
                 {
                     pitanje = IspitManager.SljedecePitanje();
                 } while (pitanje.KorisnikovOdgovor != null);
+
                 potvrdenOdgovorTextBox.Text = String.Empty;
                 pitanjeTextBox.Text = pitanje.Tekst;
                 odgovoriListBox.DataSource = null;

@@ -1,0 +1,13 @@
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\bin\Debug\ProvedbaDva.exe.config
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\bin\Debug\ProvedbaDva.exe
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\bin\Debug\ProvedbaDva.pdb
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.Form1.resources
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.Properties.Resources.resources
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.csproj.GenerateResource.cache
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.exe
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.pdb
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\bin\Debug\ProvedbaIspitaLib2.dll
+C:\Users\Marko\source\repos\Vjezbe3\ProvedbaDva\ProvedbaDva\obj\Debug\ProvedbaDva.csproj.CopyComplete
