@@ -23,13 +23,22 @@ namespace ProvedbaIspita
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            sljedecePitanjeButton_Click(sender, e);
+            //sljedecePitanjeButton_Click(sender, e);
+            pitanje = IspitManager.SljedecePitanje();
+            potvrdenOdgovorTextBox.Text = String.Empty;
+            pitanjeTextBox.Text = pitanje.Tekst;
+            odgovoriListBox.DataSource = null;
+            odgovoriListBox.DataSource = pitanje.DohvatiOdgovore().ToList();
 
         }
 
         private void sljedecePitanjeButton_Click(object sender, EventArgs e)
         {
-            if (IspitManager.ImaJosPitanja() == true)
+            if(pitanje.KorisnikovOdgovor== null && pitanje!= null)
+            {
+                MessageBox.Show("WARNING");
+            }
+            else if (IspitManager.ImaJosPitanja() == true)
             {
                 do
                 {
